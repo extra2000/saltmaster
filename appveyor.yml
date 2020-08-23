@@ -1,0 +1,14 @@
+os: Ubuntu
+platform:
+  - x64
+install:
+  - sudo apt-get update && sudo apt-get install -y bridge-utils dnsmasq-base ebtables libvirt-bin libvirt-dev qemu-kvm qemu-utils ruby-dev
+  - sudo wget -nv https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb
+  - sudo dpkg -i vagrant_2.2.9_x86_64.deb
+  - sudo vagrant plugin install vagrant-libvirt vagrant-scp vagrant-reload vagrant-vbguest
+build_script:
+  - openssl genrsa -out salt/keys/saltmaster-box.pem
+  - openssl rsa -in salt/keys/saltmaster-box.pem -pubout -out salt/keys/saltmaster-box.pub
+  - sudo vagrant up --provider=libvirt
+  - sudo vagrant destroy --force
+test: off

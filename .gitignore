@@ -1,0 +1,4 @@
+.vagrant
+salt/keys/*.pem
+salt/keys/*.pub
+!salt/keys/.gitkeep
