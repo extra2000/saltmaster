@@ -83,7 +83,6 @@ Vagrant.configure("2") do |config|
     saltmaster_box.vm.network "forwarded_port", guest: 4505, host: 4505
     saltmaster_box.vm.network "forwarded_port", guest: 4506, host: 4506
 
-    saltmaster_box.vm.synced_folder "salt/roots/", "/srv/", type: "rsync"
     saltmaster_box.vm.synced_folder '.', '/vagrant', disabled: true
   end
 
