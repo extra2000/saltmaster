@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
 
     saltmaster_box.vm.provider "virtualbox" do |v, override|
       override.vagrant.plugins = config.vagrant.plugins + ["vagrant-vbguest"]
-      override.vbguest.auto_update = false
+      override.vbguest.auto_update = true
       override.vm.box_download_checksum_type = "sha256"
       override.vm.box_download_checksum = "7e83943defcb5c4e9bebbe4184cce4585c82805a15e936b01b1e893b63dee2c5"
       override.vm.network "private_network", type: "dhcp"
