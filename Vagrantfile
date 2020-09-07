@@ -60,6 +60,8 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, '--natdnshostresolver1', 'on']
       v.customize ['modifyvm', :id, '--graphicscontroller', 'vmsvga']
       v.customize ['modifyvm', :id, '--audio', 'none']
+      v.customize ['modifyvm', :id, '--usb', 'on']
+      v.customize ['modifyvm', :id, '--usbxhci', 'on']
 
       override.vm.provision 'shell', run: 'once', inline: 'echo nameserver 8.8.8.8 | tee /etc/resolv.conf', privileged: true
       override.vm.provision 'shell', run: 'once', inline: 'sudo yum install -y avahi-tools nss-mdns && sudo systemctl start avahi-daemon && sudo systemctl enable avahi-daemon'
