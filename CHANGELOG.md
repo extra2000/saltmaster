@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.2](https://github.com/extra2000/saltmaster/compare/v1.2.1...v1.2.2) (2020-09-26)
+
+
+### Continuous Integrations
+
+* **travis:** Add slack notifications ([c246a01](https://github.com/extra2000/saltmaster/commit/c246a01fe7626ca77fd13a71e89cc8095483a25e))
+
 ### [1.2.1](https://github.com/extra2000/saltmaster/compare/v1.2.0...v1.2.1) (2020-09-26)
 
 
