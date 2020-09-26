@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.3](https://github.com/extra2000/saltmaster/compare/v1.2.2...v1.2.3) (2020-09-26)
+
+
+### Continuous Integrations
+
+* **travis:** Change Slack notifications token ([b5be05b](https://github.com/extra2000/saltmaster/commit/b5be05b66a5274719e1f561dedb23409e9604004))
+
 ### [1.2.2](https://github.com/extra2000/saltmaster/compare/v1.2.1...v1.2.2) (2020-09-26)
 
 
