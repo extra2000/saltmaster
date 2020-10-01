@@ -1,5 +1,21 @@
 # Changelog
 
+### [1.2.4](https://github.com/extra2000/saltmaster/compare/v1.2.3...v1.2.4) (2020-10-01)
+
+
+### Documentations
+
+* **CHANGELOG:** Rename saltmaster to saltmaster-box ([18f034a](https://github.com/extra2000/saltmaster/commit/18f034a56b40d8d73864a081e7c1b88ad836cf43))
+* **README:** Rename saltmaster to saltmaster-box ([2945c6d](https://github.com/extra2000/saltmaster/commit/2945c6d5dd16e469b9e7fd3609da4d5d527c954e))
+
+
+### Continuous Integrations
+
+* **semantic-release:** Add feat type ([d695094](https://github.com/extra2000/saltmaster/commit/d695094ddc23ef37a0c3bb091a317d033ce5061e))
+* **semantic-release:** Add rc, beta, and alpha release channels ([46c3ed8](https://github.com/extra2000/saltmaster/commit/46c3ed87ad9af9abe7bf0d6e6e85488c869e5f89))
+* **semantic-release:** Remove invalid release branches ([57d6f0d](https://github.com/extra2000/saltmaster/commit/57d6f0d35bf81c82940b8f707c5aa1a23274962c))
+* **semantic-release:** Remove scope README from docs ([8c26f47](https://github.com/extra2000/saltmaster/commit/8c26f47410aef1a10a0af29e06524b7dd594ddd0))
+
 ### [1.2.3](https://github.com/extra2000/saltmaster-box/compare/v1.2.2...v1.2.3) (2020-09-26)
 
 
