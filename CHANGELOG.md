@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.5](https://github.com/extra2000/saltmaster-box/compare/v1.2.4...v1.2.5) (2020-10-02)
+
+
+### Continuous Integrations
+
+* **semantic-release:** Add fix type ([aa35927](https://github.com/extra2000/saltmaster-box/commit/aa35927f96f0ca3a33abfd9eec4186fce159f1e5))
+
 ### [1.2.4](https://github.com/extra2000/saltmaster/compare/v1.2.3...v1.2.4) (2020-10-01)
 
 
