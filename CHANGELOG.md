@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.6](https://github.com/extra2000/saltmaster-box/compare/v1.2.5...v1.2.6) (2020-10-05)
+
+
+### Continuous Integrations
+
+* **semantic-release:** Fix patch updates with BREAKING CHANGE doesn't trigger major release ([ad26627](https://github.com/extra2000/saltmaster-box/commit/ad26627cea523b69569b9901900f65b57e3777ab))
+
 ### [1.2.5](https://github.com/extra2000/saltmaster-box/compare/v1.2.4...v1.2.5) (2020-10-02)
 
 
