@@ -9,6 +9,11 @@ Automate SaltStack Master deployment.
 
 ## Getting Started
 
+Choose Vagrant file from `vagrant/examples/`. For example:
+```
+$ cp -v vagrant/examples/Vagrantfile.saltmaster-box.centos-7.x86_64.example vagrant/Vagrantfile.saltmaster-box
+```
+
 Generate Saltstack master key for `saltmaster-box`:
 ```
 $ cd salt/keys
