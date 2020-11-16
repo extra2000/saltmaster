@@ -14,6 +14,12 @@ Choose Vagrant file from `vagrant/examples/`. For example:
 $ cp -v vagrant/examples/Vagrantfile.saltmaster-box.centos-7.x86_64.example vagrant/Vagrantfile.saltmaster-box
 ```
 
+Create Salt Master config file:
+```
+$ cp -v salt/etc/saltmaster-box.example salt/etc/saltmaster-box
+```
+
+
 Generate Saltstack master key for `saltmaster-box`:
 ```
 $ cd salt/keys
