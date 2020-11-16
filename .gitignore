@@ -4,3 +4,5 @@ salt/keys/*.pub
 !salt/keys/.gitkeep
 salt/etc/saltmaster-box
 vagrant/Vagrantfile.saltmaster-box
+salt/roots/*/*
+!salt/roots/*/.gitkeep
