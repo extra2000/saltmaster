@@ -1,5 +1,60 @@
 # Changelog
 
+## [2.0.0](https://github.com/extra2000/saltmaster-box/compare/v1.2.6...v2.0.0) (2020-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **vagrant:** Existing Vagrantfile have been renamed into example Vagrant file. Also port forwarding has been disabled by default and can be re-enabled by uncomment port forwarding lines in the Vagrant file.
+* **salt/etc/:** Salt Master config file `salt/etc/saltmaster-box` has been renamed to `salt/etc/saltmaster-box.example`.
+
+### Features
+
+* **salt/roots/:** Add user customizable `formulas/`, `pillars/`, and `salts/` directory ([713d874](https://github.com/extra2000/saltmaster-box/commit/713d8747cf66f934822fe44e5c75df32f664b82b))
+* **vagrant:** Add Arch Linux `x86_64` box ([9d23df2](https://github.com/extra2000/saltmaster-box/commit/9d23df28e5e88533c429983368fad7dc56f5a6d4))
+* **vagrant:** Add Debian 10 `x86_64` box ([1239e54](https://github.com/extra2000/saltmaster-box/commit/1239e54c04bcaa2332fabe65de498e605302e2c9))
+* **vagrant:** Add Fedora 32 `x86_64` box ([9e9412d](https://github.com/extra2000/saltmaster-box/commit/9e9412d5f0f3ffda3c06146c4815fc5940d20f62))
+* **vagrant:** Add openSUSE Leap 15.2 `aarch64` box ([51a1652](https://github.com/extra2000/saltmaster-box/commit/51a16521de9edb22d7f27f44b13d71a7a0430761))
+* **vagrant:** Add openSUSE Leap 15.2 `aarch64` QEMU box ([bacf3b0](https://github.com/extra2000/saltmaster-box/commit/bacf3b0f047ab2d2c835365df257f4f895a6b418))
+* **vagrant:** Add openSUSE Leap 15.2 `x86_64` box ([bf591b8](https://github.com/extra2000/saltmaster-box/commit/bf591b82ed6f6e64b613a9207a1743e01818f0ba))
+* **vagrant:** Add openSUSE Tumbleweed `aarch64` box ([a432311](https://github.com/extra2000/saltmaster-box/commit/a432311a05bb5d095ec55100fdc2fe4535833fed))
+* **vagrant:** Add openSUSE Tumbleweed `aarch64` QEMU box ([3db0fbd](https://github.com/extra2000/saltmaster-box/commit/3db0fbd818efd348ee9edbcbd559a6c5e113d2e1))
+* **vagrant:** Add openSUSE Tumbleweed `x86_64` box ([3399b98](https://github.com/extra2000/saltmaster-box/commit/3399b9837e4e36b85875e8abdaf29eb950d53fe6))
+* **vagrant:** Add Ubuntu 20.04 `x86_64` box ([7ac32fc](https://github.com/extra2000/saltmaster-box/commit/7ac32fc908f3b3237278a45ebd560923ae36df3d))
+
+
+### Code Refactoring
+
+* **salt/etc/:** Rename `salt/etc/saltmaster-box` to `salt/etc/saltmaster-box.example` ([43b9d56](https://github.com/extra2000/saltmaster-box/commit/43b9d564f5cda43f1b784972b38722e4850a6f0f))
+* **vagrant:** Rename existing Vagrant file into example Vagrant file ([a778f12](https://github.com/extra2000/saltmaster-box/commit/a778f127ff9799fc56a69f9c62cd0e8bb1f19e2b))
+
+
+### Documentations
+
+* **README:** Add instruction to choose Vagrant file before creating Vagrant box ([7bf80cf](https://github.com/extra2000/saltmaster-box/commit/7bf80cf72df6d1630a45c0f4c1d3b3592ef6f677))
+* **README:** Add instruction to create Salt Master config file from the example file ([eb6b3f1](https://github.com/extra2000/saltmaster-box/commit/eb6b3f1f86906b1f297a803350e768b13ab162fb))
+* **README:** Remove Travis CI badge ([59fff87](https://github.com/extra2000/saltmaster-box/commit/59fff871b39056bb4caad9236c1ef34cae33fc3e))
+
+
+### Styles
+
+* **gitignore:** End file with a newline ([7d90dd9](https://github.com/extra2000/saltmaster-box/commit/7d90dd9956e22f388d056c9557e4e63333e903e3))
+* **vagrant:** Remove double spacing in Vagrant files ([60df130](https://github.com/extra2000/saltmaster-box/commit/60df130ee33adb2e17ef1d5e5fd75acdca956a27))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Add `semantic-release` ([51c9fee](https://github.com/extra2000/saltmaster-box/commit/51c9feef3fa3300cbfe6993f8e90a53dc7490833))
+* **semantic-release:** Write version to `VERSION.txt` ([66226ec](https://github.com/extra2000/saltmaster-box/commit/66226ecfafddb802a3cb09c54a57c2415cea0a1a))
+* Add instruction to create Vagrant file and Salt Master config file ([ff444be](https://github.com/extra2000/saltmaster-box/commit/ff444bef95f7d8626b548d18bba62ec1bb011afb))
+* Remove Travis CI because it is no longer free ([89260d7](https://github.com/extra2000/saltmaster-box/commit/89260d76af9efdbc56dbfe76607276da525c1ad7))
+
+
+### Maintenance
+
+* **release:** 2.0.0-alpha.1 [skip ci] ([0bb894c](https://github.com/extra2000/saltmaster-box/commit/0bb894c5801050c273f7387d985d882c7c14458c))
+* **release:** 2.0.0-alpha.2 [skip ci] ([4e0bbe6](https://github.com/extra2000/saltmaster-box/commit/4e0bbe6b79edea08f3a3671de08b1c86b0e66cf5))
+
 ## [2.0.0-alpha.2](https://github.com/extra2000/saltmaster-box/compare/v2.0.0-alpha.1...v2.0.0-alpha.2) (2020-11-30)
 
 
