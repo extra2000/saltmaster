@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0-alpha.2](https://github.com/extra2000/saltmaster-box/compare/v2.0.0-alpha.1...v2.0.0-alpha.2) (2020-11-30)
+
+
+### Features
+
+* **vagrant:** Add Arch Linux `x86_64` box ([9d23df2](https://github.com/extra2000/saltmaster-box/commit/9d23df28e5e88533c429983368fad7dc56f5a6d4))
+
+
+### Documentations
+
+* **README:** Remove Travis CI badge ([59fff87](https://github.com/extra2000/saltmaster-box/commit/59fff871b39056bb4caad9236c1ef34cae33fc3e))
+
+
+### Styles
+
+* **gitignore:** End file with a newline ([7d90dd9](https://github.com/extra2000/saltmaster-box/commit/7d90dd9956e22f388d056c9557e4e63333e903e3))
+* **vagrant:** Remove double spacing in Vagrant files ([60df130](https://github.com/extra2000/saltmaster-box/commit/60df130ee33adb2e17ef1d5e5fd75acdca956a27))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Add `semantic-release` ([51c9fee](https://github.com/extra2000/saltmaster-box/commit/51c9feef3fa3300cbfe6993f8e90a53dc7490833))
+* **semantic-release:** Write version to `VERSION.txt` ([66226ec](https://github.com/extra2000/saltmaster-box/commit/66226ecfafddb802a3cb09c54a57c2415cea0a1a))
+* Remove Travis CI because it is no longer free ([89260d7](https://github.com/extra2000/saltmaster-box/commit/89260d76af9efdbc56dbfe76607276da525c1ad7))
+
 ## [2.0.0-alpha.1](https://github.com/extra2000/saltmaster-box/compare/v1.2.6...v2.0.0-alpha.1) (2020-11-16)
 
 
