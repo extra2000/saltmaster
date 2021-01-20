@@ -11,7 +11,7 @@ Automate SaltStack Master deployment.
 
 Choose Vagrant file from `vagrant/examples/`. For example:
 ```
-$ cp -v vagrant/examples/Vagrantfile.saltmaster-box.centos-7.x86_64.example vagrant/Vagrantfile.saltmaster-box
+$ cp -v vagrant/examples/Vagrantfile.saltmaster-box.fedora-33.x86_64.example vagrant/Vagrantfile.saltmaster-box
 ```
 
 Create Salt Master config file:
