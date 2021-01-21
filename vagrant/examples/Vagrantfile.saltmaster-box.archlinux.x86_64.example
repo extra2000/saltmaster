@@ -58,7 +58,7 @@ Vagrant.configure("2") do |config|
       v.customize ['modifyvm', :id, '--graphicscontroller', 'vmsvga']
       v.customize ['modifyvm', :id, '--audio', 'none']
 
-      override.vm.provision 'shell', run: 'once', inline: 'sudo pacman --sync --noconfirm avahi nss-mdns && sudo systemctl start avahi-daemon && sudo systemctl enable avahi-daemon'
+      override.vm.provision 'shell', run: 'once', inline: 'pacman --sync --noconfirm avahi nss-mdns && systemctl start avahi-daemon && systemctl enable avahi-daemon', privileged: true
       salt_provision_saltmaster_box override
       override.vm.provision 'reload'
     end
