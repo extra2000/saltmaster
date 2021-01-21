@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.1.0](https://github.com/extra2000/saltmaster-box/compare/v2.0.0...v2.1.0) (2021-01-21)
+
+
+### Features
+
+* **vagrant:** Add Fedora 33 `x86_64` box ([547c7fa](https://github.com/extra2000/saltmaster-box/commit/547c7fab803dbe0bc22241843cb00c2a5542dff4))
+
+
+### Documentations
+
+* **README:** Default Vagrantfile to Fedora 33 `x86_64` ([a01afcb](https://github.com/extra2000/saltmaster-box/commit/a01afcbb66a5f233917e04407e15de88cb2abc74))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Change from CentOS 7 to Fedora 33 ([c10b44d](https://github.com/extra2000/saltmaster-box/commit/c10b44d23486f603fe0e4e1049594a073aeb7490))
+* **AppVeyor:** Upgrade Ubuntu from `18.04` to `20.04` ([a5906b3](https://github.com/extra2000/saltmaster-box/commit/a5906b3ea913c13ef77628034a619e209d03b4fb))
+
+
+### Code Refactoring
+
+* **vagrant:** Replace `sudo` with `privileged: true` ([cb2e295](https://github.com/extra2000/saltmaster-box/commit/cb2e29530d6e213fb1aabe8b1ca2e06b331fdb1b))
+* **vagrant:** Standardize Salt Master installations to `v3002.2` and via `git` ([de87bd6](https://github.com/extra2000/saltmaster-box/commit/de87bd69024bed302edc8d8fc7ecd288dc026fef))
+
 ## [2.0.0](https://github.com/extra2000/saltmaster-box/compare/v1.2.6...v2.0.0) (2020-11-30)
 
 
